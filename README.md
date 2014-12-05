@@ -3,4 +3,4 @@ stp-archery
 
 Homework project for HTML5-100
 
-Update by Thomas Evenson
+Updates by Thomas Evenson and Sopheary Chiv
