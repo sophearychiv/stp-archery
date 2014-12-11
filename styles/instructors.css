@@ -17,18 +17,26 @@ h1 {
     display:inline-flex;
 }
 
+h2,h3 {
+    margin-bottom: .5rem;
+}
+
+p {
+    margin-bottom: .5rem;
+}
+
 header {
     color: #523e33;
     background-color: #94c840;
-    padding-top: 1rem;    
-    padding-left: 1rem;
+    padding-top: 1rem;        
 }
 
 header section {
     clear: both;
+    margin-left: 1rem;
 }
 
-header img {
+header img.logo{
     height: 100px;    
     float: left;    
 }
@@ -62,3 +70,89 @@ header nav li a {
     font-size: 1.25rem;
 }
 
+header nav li a:hover {
+    text-decoration: underline;
+}
+
+img.slide {
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+article {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+article img {
+    width: 250px
+}
+
+footer {
+    background-color: #94c840;
+    color: white;
+    padding: 0.5rem;
+}
+
+footer:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+footer address {
+    margin-top: .5rem;
+    font-size: small;
+    float: left;
+    font-style: normal;
+}
+
+footer nav {
+    float: right;
+}
+
+footer nav li {
+    margin-top: 1rem;
+    display: inline-block;
+    margin-right: 2.2rem;
+    color: white;
+}
+
+.fa-inverse {
+    color: #94c840;
+}
+
+.fa-circle {
+    color: white;
+}
+
+/* Grid system */
+.grid {
+    width: 100%;
+}
+
+.row {
+    margin-bottom: 1rem;
+}
+
+.row:after {
+    content:"";
+    display: table ;
+    clear:both;
+}
+
+[class^="col"] {
+    float: left;    
+}
+
+.col-1-of-3 {
+    width: 33.33%;
+}
+
+.col-2-of-3 {
+    width: 66.66%;
+}
+
+.col-3-of-3 {
+    width: 100%;
+}
